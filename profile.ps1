@@ -45,7 +45,7 @@ function prompt {
     $status_string = ""
   }
  
-  Write-Host (" PS " + $(get-location)) -nonewline
+  Write-Host ("PS " + $(get-location)) -nonewline
   Write-Host ($status_string) -nonewline -foregroundcolor Cyan
   Write-Host (">") -nonewline
   return " "
